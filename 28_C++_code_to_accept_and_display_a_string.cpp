@@ -6,7 +6,7 @@ int main()
 {
     char str[50];
     cout << "Enter a string : ";
-    fgets(str);
+    gets(str);
     cout << "You enterd : ";
     puts(str);
     return 0;
